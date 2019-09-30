@@ -3,7 +3,7 @@
 	2. FIXED MENU
 	3. COUNTER
 	4. TESTIMONIAL SLIDE (SLICK SLIDER)
-	5. CLIENT SLIDE (SLICK SLIDER)
+	5. TEAM SLIDE (SLICK SLIDER)
 	6. SCROLL TOP BUTTON
 	7. MENU SMOOTH SCROLLING
 	8. MIXIT FILTER ( FOR PORTFOLIO )  
@@ -73,46 +73,20 @@ jQuery(function($){
 	});
 
 	/* ----------------------------------------------------------- */
-	/*  5. CLIENT SLIDE (SLICK SLIDER)
+	/*  4. TEAM SLIDE(SLICK SLIDER)
 	/* ----------------------------------------------------------- */
 
-	$('.client-table').slick({
-	  dots: false,
-	  infinite: true,
-	  arrows:false, 
-	  speed: 300,
-	  autoplay: true,     
-	  slidesToShow: 6,
-	  slidesToScroll: 6,
-	  responsive: [
-	    {
-	      breakpoint: 1024,
-	      settings: {
-	        slidesToShow: 4,
-	        slidesToScroll: 4,
-	        infinite: true,
-	        dots: true
-	      }
-	    },
-	    {
-	      breakpoint: 600,
-	      settings: {
-	        slidesToShow: 2,
-	        slidesToScroll: 2
-	      }
-	    },
-	    {
-	      breakpoint: 480,
-	      settings: {
-	        slidesToShow: 1,
-	        slidesToScroll: 1
-	      }
-	    }
-	    // You can unslick at a given breakpoint now by adding:
-	    // settings: "unslick"
-	    // instead of a settings object
-	  ]
+	jQuery('.team-slider').slick({
+		dots: false,
+		infinite: true,
+		speed: 500,
+		arrows:true, 
+		autoplay: true,     
+      	slidesToShow: 1,
+		slide: 'div',		
+		cssEase: 'linear'
 	});
+
 
 	/* ----------------------------------------------------------- */
 	/*  6. SCROLL TOP BUTTON
@@ -252,15 +226,3 @@ jQuery(function($){
     wow.init();
 
 });
-
-// <script>
-// var first = document.getElementById('technical');
-// var second = document.getElementById('events');
-// var third = document.getElementById('social');
-
-// first.style.display="none";
-// second.style.display="none";
-// third.style.display="none";
-
-
-// </script>

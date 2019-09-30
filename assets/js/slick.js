@@ -1,11 +1,4 @@
 /*
-     _ _      _       _
- ___| (_) ___| | __  (_)___
-/ __| | |/ __| |/ /  | / __|
-\__ \ | | (__|   < _ | \__ \
-|___/_|_|\___|_|\_(_)/ |___/
-                   |__/
-
  Version: 1.5.7
   Author: Ken Wheeler
  Website: http://kenwheeler.github.io
@@ -15,6 +8,7 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+
 (function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
