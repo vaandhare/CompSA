@@ -738,6 +738,30 @@ img{
 	background-image: url(assets/images/team/sparsh.jpg);
 }
 
+.diksha-img{
+	background-image: url(assets/images/team/diksha.jpg);
+}
+
+.piyush-img{
+	background-image: url(assets/images/team/piyush.jpg);
+}
+
+.shraddha-img{
+	background-image: url(assets/images/team/shraddha.jpg);
+}
+
+.sudip-img{
+	background-image: url(assets/images/team/sudip.jpg);
+}
+
+.mayuresh-img{
+	background-image: url(assets/images/team/mayuresh.jpg);
+}
+
+.sagar-img{
+	background-image: url(assets/images/team/sagar.jpg);
+}
+
 .team-img-1 { 
 	background-image: url(assets/images/team-member1.png);
 }
@@ -1668,7 +1692,7 @@ img{
 	  margin: 20px;
 	  width: 20%;
 	}
-	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, 
+	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, .diksha-img, .piyush-img, .shradhha-img, .sudip-img, .mayuresh-img, .sagar-img,
 	.team-img-1,
 	.team-img-2,
 	.team-img-3,
@@ -1962,7 +1986,7 @@ img{
 	  margin: 20px 25px 70px;
 	  width: 38%;
 	}
-	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, .team-img-1, .team-img-2, .team-img-3, .team-img-4 {
+	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, .diksha-img, .piyush-img, .shradhha-img, .sudip-img, .mayuresh-img, .sagar-img,  .team-img-1, .team-img-2, .team-img-3, .team-img-4 {
 	  background-position: center center;
 	  background-size: 100% auto;
 	}
