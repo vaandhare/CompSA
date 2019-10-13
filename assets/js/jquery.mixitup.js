@@ -1,17 +1,3 @@
-/**!
- * MixItUp v2.1.10
- *
- * @copyright Copyright 2015 KunkaLabs Limited.
- * @author    KunkaLabs Limited.
- * @link      https://mixitup.kunkalabs.com
- *
- * @license   Commercial use requires a commercial license.
- *            https://mixitup.kunkalabs.com/licenses/
- *
- *            Non-commercial use permitted under terms of CC-BY-NC license.
- *            http://creativecommons.org/licenses/by-nc/3.0/
- */
-
 (function($, undf){
 	'use strict';
 	
@@ -149,14 +135,7 @@
 		
 		/* Static Methods
 		---------------------------------------------------------------------- */
-		
-		/**
-		 * Extend
-		 * @since 2.1.0
-		 * @param {object} new properties/methods
-		 * @extends {object} prototype
-		 */
-		
+			
 		extend: function(extension){
 			for(var key in extension){
 				$.MixItUp.prototype[key] = extension[key];

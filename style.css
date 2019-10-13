@@ -17,7 +17,7 @@
 */
 
 body,html{
-  	overflow-x:hidden;
+	overflow-x:hidden;
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -105,22 +105,22 @@ img{
 }
 @-webkit-keyframes load3 {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 @keyframes load3 {
   0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
   }
 }
 
@@ -160,12 +160,14 @@ img{
 	float: left;
 	display: inline;
 	width: 100%;
+	height: 100%;
 }
 .header-inner{	
 	display: inline;
 	position: relative;
 	float: left;	
 	width: 100%;
+	height: 100%;
 }
 .header-inner>img{
 	width: 100%;
@@ -328,7 +330,7 @@ img{
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: transparent;
+	background-color: transparent;
 }
 .search-area {
 	display: inline-block;
@@ -355,7 +357,7 @@ img{
 	background: none;
 	z-index: 3;
 	-webkit-transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
-	        transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+			transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
 	cursor: pointer;
 }
 .search-area input[type="text"]:focus {
@@ -379,7 +381,7 @@ img{
 	text-indent: -10000px;
 	top: 53%;
 	-webkit-transition: opacity 0.4s ease 0s;
-	      transition: opacity 0.4s ease 0s;
+		  transition: opacity 0.4s ease 0s;
 	width: 45px;
 	z-index: 2;
 }
@@ -696,7 +698,7 @@ img{
 	position: relative;
 	cursor: default;
 	box-shadow: 
-		inset 0 0 0 16px rgba(255,255,255,0.6),
+		inset 0 0 0 10px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
 		
 	-webkit-transition: all 0.4s ease-in-out;
@@ -775,15 +777,15 @@ img{
 }
 
  .patel-img{
- 	background-image: url(assets/images/team/patel.jpeg);
+	background-image: url(assets/images/team/patel.jpeg);
  } 
 
  .sarvesh-img{
- 	background-image: url(assets/images/team/sarvesh.JPG);
+	background-image: url(assets/images/team/sarvesh.JPG);
  } 
 
  .vaishnavi-img{
- 	background-image: url(assets/images/team/vaishnavi.jpg);
+	background-image: url(assets/images/team/vaishnavi.jpg);
  }
 
 .team-img-1 { 
@@ -1034,20 +1036,20 @@ img{
 }
 .single-item>img{
 	width: 100%;
-    display: block;
-    height: 290px;
-    -webkit-transition: all 0.5s ease 0s;
+	display: block;
+	height: 290px;
+	-webkit-transition: all 0.5s ease 0s;
 	-o-transition: all 0.5s ease 0s;
 	transition: all 0.5s ease 0s;
 }
 .single-item>img:hover{	
 	-webkit-transform: scale(1);	
-	    -ms-transform: scale(1);	
-	        transform: scale(1);	       
+		-ms-transform: scale(1);	
+			transform: scale(1);	       
 }
 #mixit-container .mix{
-    display: none;
-    
+	display: none;
+	
 }
 .single-item-content { 
 	background-color: #000; 
@@ -1545,8 +1547,8 @@ img{
 	height: 190px;
 }
 .contact-form .form-control:focus {
-    outline: 0;
-    box-shadow: none;    
+	outline: 0;
+	box-shadow: none;    
 } 
 .contact-form .form-control::-webkit-input-placeholder {
 	color: #e2e2e2;
@@ -1682,7 +1684,7 @@ img{
 
 @media(max-width:1199px ){
 	.header-content {  
-      padding: 70px;  
+	  padding: 70px;  
 	}
 	.header-content h2 {
 	  font-size: 60px;
@@ -1708,20 +1710,13 @@ img{
 	.main-nav li a {  
 	  padding: 39px 16px;  
 	}
-	.search-area input[type="text"]:focus {
-	  width: 820px;  
-	}
 	.team-grid li {
-	  height: 220px;
+	  height: 190px;
 	  margin: 20px;
 	  width: 20%;
 	}
 	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, .diksha-img, .piyush-img, .shradhha-img, .sudip-img, .mayuresh-img, .sagar-img, .ali-img, .abhiket-img,
-	.dinesh-img, .patel-img, .sarvesh-img, .vaishnavi-img,
-	.team-img-1,
-	.team-img-2,
-	.team-img-3,
-	.team-img-4 { 
+	.dinesh-img, .patel-img, .sarvesh-img, .vaishnavi-img { 
 	  background-position: center center;
 	}
 	.team-info {
@@ -1729,10 +1724,12 @@ img{
 	}
 	.team-info p {
 		margin: 0 32px; 
-	  	padding: 10px 0px; 
+		padding: 10px 0px;
+        font-size: 15px;	 
+ 
 	}
 	.team-info a {
-	  margin: 0 2px;	 
+	  margin: 0 2px;
 	}
 	.single-service {
 	  padding: 45px 15px;  
@@ -1742,16 +1739,6 @@ img{
 	}
 	.single-portfolio {
 	  width: 23%;
-	}
-	.single-counter > span {
-	  font-size: 50px;	  
-	  width: 50px;
-	}
-	.single-counter .counter-count > span {
-	  font-size: 40px;
-	}
-	.single-counter .counter-count > p {	  
-	  font-size: 14px;	  
 	}
 	.single-from-blog .blog-title h2 {
 	  font-size: 25px;  
@@ -1777,7 +1764,7 @@ img{
 
 @media(max-width:991px ){
 	.header-content {  
-      padding: 50px;  
+	  padding: 50px;  
 	}
 	.header-content h2 {
 	  font-size: 50px;
@@ -1796,9 +1783,6 @@ img{
 	}
 	#navbar {
 	  width: 86%;
-	}
-	.search-area {
-	  width: 3%;
 	}
 	.main-nav li a {
 	  font-size: 14px;
@@ -1838,12 +1822,12 @@ img{
 	  font-size: 30px;
 	}
 	.team-grid li {
-	  height: 220px;
+	  height: 170px;
 	  margin: 20px 10px;  
 	  width: 21%;
 	}
 	.team-info p {
- 		font-size: 10px;
+		font-size: 10px;
 	}
 	.team-info a { 
 	  font-size: 15px;
@@ -1863,22 +1847,22 @@ img{
 	  width: 22.5%;
 	}
 	.portfolio-social-icon {
-  		padding: 85px 50px; 
+		padding: 85px 50px; 
 	}
 	.portfolio-title h4 {  
 	  font-size: 13px; 
 	}
 	.counter-area {  
- 	 padding: 90px 0;  
+	 padding: 90px 0;  
 	}
 	.single-counter {  
 	  margin-bottom: 35px;  
 	}
 	.single-price .price-amount {  
-  		font-size: 25px;  
+		font-size: 25px;  
 	}
 	.single-price p {
-  		font-size: 15px;  
+		font-size: 15px;  
 	}
 	.single-price a span {  
 	  padding: 12px 35px;
@@ -1888,20 +1872,6 @@ img{
 	}
 	.blog-right {
 	  margin-top: 25px;  
-	}
-	.instagram-feed .slick-prev {
-	  left: 40%;
-	}
-	.instagram-feed .slick-next {
-	  right: 41%;
-	}
-	.error-message h4 {  
-	  font-size: 50px;
-	  line-height: 50px;	 
-	}
-	.error-message p {	 
-	  font-size: 25px;
-	  padding: 0 50px;
 	}
 }
 
@@ -1954,27 +1924,14 @@ img{
 	}
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus{
-		background-color: #00d999;
-		border-color: #00d999;
+		background-color: #ff9400;
+		border-color: #ff9400;
 		color: #fff;
 	}
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar{
 		background-color: #fff;
 		
-	}
-	.search-area {
-	  left: -3px;
-	  top: -100px;
-	  width: 3%;
-	}
-	.search-area input[type="text"]:focus {
-	  height: 36px;
-	  top: 31px !important;
-	  width: 550px;
-	}
-	.navbar-fixed-top .search-area{
-		top: -77px;
 	}
 	.navbar-fixed-top .navbar-toggle { 
 	  margin-top: 25px;
@@ -2007,12 +1964,12 @@ img{
 	  font-size: 28px;
 	}
 	.team-grid li {
-	  height: 220px;
-	  margin: 20px 25px 70px;
-	  width: 38%;
+	  height: 150px;
+	  margin: 10px 15px 70px;
+	  width: 20%;
 	}
 	.vp-img, .porwal-img, .vaibhav-img, .abhishree-img, .iyer-img, .sneha-img, .sahana-img, .sparsh-img, .diksha-img, .piyush-img, .shradhha-img, .sudip-img, .mayuresh-img, .sagar-img,
-	.ali-img, .abhiket-img, .dinesh-img, .patel-img, .sarvesh-img, .vaishnavi-img,  .team-img-1, .team-img-2, .team-img-3, .team-img-4 {
+	.ali-img, .abhiket-img, .dinesh-img, .patel-img, .sarvesh-img, .vaishnavi-img {
 	  background-position: center center;
 	  background-size: 100% auto;
 	}
@@ -2040,31 +1997,14 @@ img{
 	#blog-banner {
 	  margin-top: -60px;	  
 	}
-	.instagram-feed .slick-prev {
-	  left: 39%;
-	}
-	.instagram-feed .slick-next {
-	  right: 40%;
-	}
-	#error-page {	  
-	  padding: 100px 0;	  
-	}
-	.error-page-area {	  
-	  width: 500px;
-	}
-	.error-message h4 {
-	  font-size: 35px;
-	  line-height: 35px;
-	}
-	.error-message p {
-	  font-size: 20px;
-	  padding: 0 45px;
-	}
-
-
 }
 
 @media(max-width:480px ){
+	.header-inner {
+	  height: 100%;
+	  width: 100%;
+	  opacity: 30%;
+	}
 	.header-content {
 	  padding: 20px;
 	}
@@ -2085,82 +2025,32 @@ img{
 	  padding: 10px 15px;
 	}
 	#navbar {
+	  height: 100%;
 	  width: 106%;
 	}
 	.title-area {
 	  padding: 0 15px;
 	}
-	.search-area input[type="text"] {  
-	  font-size: 15px;  
-	}
-	.search-area input[type="text"]:focus {	 
-		height: 35px;
-		top: 32px !important;
-		width: 350px;
-	}
 	.call-to-content h2 {
 	  font-size: 20px;
 	}
 	.team-grid {
-	  padding: 0 75px;	  
+	  padding: 0;	  
 	}
 	.team-grid li {
-	  height: 220px;
-	  margin: 20px 0 70px;
-	  width: 100%;
+	  height: 100px;
+	  margin: 0px 0 70px;
+	  width: 100px;
 	}
 	.team-info {
 	  padding: 70px 18px;
 	}
 	.team-info p {
-	  font-size: 18px;
+	  font-size: 10px;
 	}
 	.single-portfolio {
 	  margin-left: 8px;
 	  width: 100%;
-	}
-	#counter img {
-	  height: 354px;
-	  width: 100%;
-	}
-	.counter-area {
-	  padding: 40px 0;
-	}
-	.single-counter > span {
-	  font-size: 50px;
-	  text-align: center;
-	  width: 100%;
-	}
-	.single-counter .counter-count {	  
-	  margin-left: 0;
-	  margin-top: 20px;
-	  text-align: center;
-	  width: 100%;
-	}
-	.single-price .price-header { 
-	  font-size: 20px;	
-	  padding: 10px 0;	  
-	}
-	.single-price .price-header::after {
-	  bottom: -43%;
-	}
-	.standard-price .price-header {
-	  padding: 20px 0;
-	}
-	.standard-price .price-header::after {
-	  bottom: -32%;
-	}
-	.single-price .price-amount {
-	  font-size: 16px;
-	}
-	.single-price p {
-	  font-size: 14px;
-	}
-	.single-price a span {
-	  padding: 12px 20px;
-	}
-	.button-default::after, .button-default > span {
-	  font-size: 10px;	
 	}
 	.single-slide {
 	  padding: 0 100px;  
@@ -2177,39 +2067,6 @@ img{
 	.testimonial-thumb {
 	  margin: 20px auto 0;	  
 	}
-	.client-table {  
-	  padding-left: 30px;
-	}
-	.instagram-feed .slick-prev {
-	  left: 34%;
-	}
-	.instagram-feed .slick-next {
-	  right: 35%;
-	}
-	#error-page {	  
-	  padding: 80px 0;	  
-	}
-	.error-page-area {	  
-	  width: 350px;
-	}
-	.error-no {
-	  padding: 20px;	  
-	}
-	.error-no h2 {	  
-	  font-size: 45px;	
-	}
-	.error-no p {	  
-	  font-size: 50px;	 
-	}
-	.error-message h4 {
-	  font-size: 35px;
-	  line-height: 35px;
-	}
-	.error-message p {
-	  font-size: 20px;
-	  padding: 0 45px;
-	}
-
 }
 
 
@@ -2259,14 +2116,6 @@ img{
 	.title-area p{
 		font-size: 14px;
 	}
-	.search-area input[type="text"] {  
-	  font-size: 14px;  
-	}
-	.search-area input[type="text"]:focus {	 
-		height: 35px;
-		top: 32px !important;
-		width: 250px;
-	}
 	.wc-table li {
 	  margin-bottom: 20px;
 	  width: 100%;
@@ -2294,8 +2143,12 @@ img{
 	  padding: 20px 10px;
 	}
 	.team-info p {
-	  font-size: 14px;
+	  font-size: 6px;
 	}
+	.team-info span {
+	  font-size: 6px;
+	}
+
 	.portfolio-container {
 	  margin-left: 0;
 	}
@@ -2310,42 +2163,6 @@ img{
 	}
 	.portfolio-social-icon {
 	  padding: 105px 50px;
-	}
-	#counter img {
-	  height: 354px;
-	  width: 100%;
-	}
-	.counter-area {
-	  padding: 40px 0;
-	}
-	.single-counter > span {
-	  font-size: 40px;
-	}
-	.single-counter .counter-count > span {
-	  font-size: 30px;
-	}
-	.single-counter .counter-count > p {
-	  font-size: 12px;
-	}
-	.price-table li {
-	  margin-bottom: 20px;
-	  width: 100%;
-	  border: 1px solid #e4e4e4;
-	}
-	.single-price a span {	 
-	  font-size: 14px;
-	}		
-	.single-price .price-amount {
-	  font-size: 16px;
-	}
-	.single-price p {
-	  font-size: 14px;
-	}		
-	.button-default::after, .button-default > span {
-	  font-size: 14px;	
-	}
-	.standard-price {
-	  margin-top: 0;
 	}
 	.single-slide {
 	  padding: 0 50px;  
@@ -2371,7 +2188,7 @@ img{
 	}
 	.contact-form .form-group input {	  
 	  font-size: 16px;
-	  height: 40px;	 
+	  height: 20px;	 
 	}
 	.footer-social a { 
 	  font-size: 15px;
@@ -2382,12 +2199,6 @@ img{
 	}
 	.blog-archive .single-from-blog figure img {
 	  height: 250px;
-	}
-	.instagram-feed .slick-prev {
-	  left: 26%;
-	}
-	.instagram-feed .slick-next {
-	  right: 27%;
 	}
 	.single-widget h2 { 
 	  font-size: 20px;
@@ -2415,42 +2226,11 @@ img{
 	  margin-bottom: 30px;
 	  margin-top: 30px;
 	}	
-	#error-page {	  
-	  padding: 60px 0;	  
-	}
-	.error-page-area {	  
-	  width: 250px;
-	}
-	.error-no {
-	  padding: 20px;	  
-	}
-	.error-no h2 {	  
-	  font-size: 35px;	
-	}
-	.error-no p {	  
-	  font-size: 40px;	 
-	}
-	.error-message h4 {
-	  font-size: 25px;
-	  line-height: 20px;
-	}
-	.error-message p {
-	  font-size: 16px;
-	  padding: 0 15px;
-	}
-	
-
 
 }
 
 
 @media(max-width:320px ){
-	.search-area input[type="text"]:focus {	 		
-		width: 210px;
-	}
-	.search-area input[type="text"] {  
-	  font-size: 12px;  
-	}
 	#navbar {
 	  width: 109%;
 	}
@@ -2502,6 +2282,4 @@ img{
 	.popular-post-widget .media-body {
 	  text-align: center;	  
 	}
-
-	
 }

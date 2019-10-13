@@ -1,19 +1,3 @@
-/**		
-	1. HEADER CONTENT SLIDE
-	2. FIXED MENU
-	3. COUNTER
-	4. TESTIMONIAL SLIDE (SLICK SLIDER)
-	5. TEAM SLIDE (SLICK SLIDER)
-	6. SCROLL TOP BUTTON
-	7. MENU SMOOTH SCROLLING
-	8. MIXIT FILTER ( FOR PORTFOLIO )  
-	9. FANCYBOX ( FOR PORTFOLIO POPUP VIEW ) 
-	10. MOBILE MENU CLOSE 
-	11. PRELOADER 
-	12. INSTAGRAM SLIDER (SLICK SLIDER)
-	13. WOW ANIMATION 	
-**/
-
 jQuery(function($){
 
 
@@ -43,17 +27,11 @@ jQuery(function($){
         $('.main-navbar').addClass('navbar-fixed-top');
         $('.logo').addClass('logo-compressed');
         $('.main-nav li a').addClass('less-padding');
-        $('.search-area').css('height','44');
-        $('.search-area input[type="text"]').css('top','35%');
-        
-        
-	    } else {
+      } else {
 	        $('.main-navbar').removeClass('navbar-fixed-top');
 	        $('.logo').removeClass('logo-compressed');
 	        $('.main-nav li a').removeClass('less-padding');
-	        $('.search-area').css('height','60');
-	        $('.search-area input[type="text"]').css('top','11%');
-	    }
+      }
 	});
 
 
@@ -194,21 +172,6 @@ jQuery(function($){
       jQuery('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
       jQuery('body').delay(100).css({'overflow':'visible'});
     })
-
-    /* ----------------------------------------------------------- */
-	/*  12. INSTAGRAM SLIDER (SLICK SLIDER)
-	/* ----------------------------------------------------------- */ 
-
-	jQuery('.instagram-feed').slick({
-		dots: true,
-		infinite: true,
-		speed: 500,
-		arrows:true, 
-		autoplay: true,     
-      	slidesToShow: 1,
-		slide: 'div',		
-		cssEase: 'linear'
-	});
 
 	/* ----------------------------------------------------------- */
 	/*  13. WOW ANIMATION
