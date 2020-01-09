@@ -1997,20 +1997,33 @@ img{
 	#blog-banner {
 	  margin-top: -60px;	  
 	}
+	.typewriter-text {
+    	font-size: 25px;
+	}
+	.modal-dialog {
+    width: 480px;
+    margin: 30px auto;
+
+  }
+  .img_p{
+   width: 450px;
+   height: 250px;
+    margin: 30px auto; 
+  }
 }
 
-@media(max-width:480px ){
+@media(max-width:576px ){
 	.header-inner {
 	  height: 100%;
 	  width: 100%;
-	  opacity: 30%;
+	  /*opacity: 30%;*/
 	}
 	.header-content {
 	  padding: 20px;
 	}
 	.header-content h2 {
 	  font-size: 25px;
-	  line-height: 25px;
+	  line-height: 33px;
 	}
 	.header-content h2 span {
 	  font-weight: normal;
@@ -2043,10 +2056,10 @@ img{
 	  width: 100px;
 	}
 	.team-info {
-	  padding: 70px 18px;
+	  padding: 30px 18px;
 	}
 	.team-info p {
-	  font-size: 10px;
+	  font-size: 7px;
 	}
 	.single-portfolio {
 	  margin-left: 8px;
@@ -2066,6 +2079,9 @@ img{
 	}
 	.testimonial-thumb {
 	  margin: 20px auto 0;	  
+	}
+	.typewriter-text {
+    	font-size: 23px;
 	}
 }
 
