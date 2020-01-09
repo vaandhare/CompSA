@@ -6017,8 +6017,14 @@ button.close {
 }
 @media (min-width: 768px) {
   .modal-dialog {
-    width: 600px;
+    width: 990px;
     margin: 30px auto;
+
+  }
+  .img_p{
+   width: 960px;
+   height: 450px;
+    margin: 30px auto; 
   }
   .modal-content {
     -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
@@ -6028,6 +6034,26 @@ button.close {
     width: 300px;
   }
 }
+@media (max-width: 575px) {
+  .modal-dialog {
+    width: 480px;
+    margin: 30px auto;
+
+  }
+  .img_p{
+   width: 450px;
+   height: 250px;
+    margin: 30px auto; 
+  }
+  .modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .modal-sm {
+    width: 300px;
+  }
+}
+
 @media (min-width: 992px) {
   .modal-lg {
     width: 900px;
